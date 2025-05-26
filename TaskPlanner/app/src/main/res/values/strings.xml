@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TaskPlanner</string>
+    <string name="app_description">Task Planner — приложение для планирования задач.</string>
+    <string name="app_description_btn">Назад</string>
+    <string name="edit_btn_del">Удалить</string>
+    <string name="edit_btn_save">Сохранить</string>
+    <string name="edit_deadline">Дедлайн (ДД.ММ.ГГГГ)</string>
+    <string name="edit_tags">Теги (через запятую)</string>
+    <string name="edit_urgency">Срочность (целое число)</string>
+    <string name="edit_descr">Описание</string>
+    <string name="edit_title">Заголовок</string>
+    <string name="settings_filters">Отключить фильтры</string>
+    <string name="settings_ad">Убрать рекламу</string>
+    <string name="settings_sort">Сортировать по важности</string>
+    <string name="empty_text">Нету</string>
+    <string name="title_text">Заголовок раздела</string>
+    <string name="actual_today">Задачи на сегодня</string>
+    <string name="actual_tomorrow">Задачи на завтра</string>
+    <string name="tab_planned">Планируемые</string>
+    <string name="tab_done">Сделанные</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/edit_task_scroll"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_title"
+            android:hint="@string/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/input_description"
+            android:hint="@string/edit_descr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minLines="3"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/input_urgency"
+            android:hint="@string/edit_urgency"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/input_tags"
+            android:hint="@string/edit_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/input_deadline"
+            android:hint="@string/edit_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:text="@string/edit_btn_del"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_blue"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:text="@string/edit_btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_blue"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
