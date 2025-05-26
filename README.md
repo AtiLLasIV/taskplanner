@@ -6,16 +6,16 @@ Android-приложение для управления списком зада
 
 ## Скриншоты:
 
-![Главный экран](images/main.png)
+<img src="images/main.png" alt="Главный экран" width="300"/>
 
-![Выполненные задачи](images/main-done.png)
+<img src="images/main-done.png" alt="Выполненные задачи" width="300"/>
 
-![Актуальные задачи](images/actual.png)
+<img src="images/actual.png" alt="Актуальные задачи" width="300"/>
 
-![Экран настроек](images/settings.png)
+<img src="images/settings.png" alt="Экран настроек]" width="300"/>
 
-![Добавление задачи](images/create.png)
+<img src="images/create.png" alt="Добавление задачи" width="300"/>
 
-![Фильтрация по тегам](images/filter-examples.png)
+<img src="images/filter-examples.png" alt="Фильтрация по тегам" width="300"/>
 
-![Сортировка по срочности](images/urgency-sort.png)
+<img src="images/urgency-sort.png" alt="Сортировка по срочности" width="300"/>
